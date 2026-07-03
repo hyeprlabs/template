@@ -5,6 +5,7 @@ import { XIcon } from "@/components/icons/x-icon";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { FullWidthDivider } from "@/components/full-width-divider";
+import { DecorIcon } from "@/components/decor-icon";
 
 export function Footer() {
   return (
@@ -15,6 +16,8 @@ export function Footer() {
       )}
     >
       <FullWidthDivider position="top" />
+      <DecorIcon className="size-4" position="top-left" />
+      <DecorIcon className="size-4" position="top-right" />
       <div className="grid max-w-5xl grid-cols-6 gap-6 p-4">
         <div className="col-span-6 flex flex-col gap-4 pt-5 md:col-span-4">
           <a className="w-max" href="#">
