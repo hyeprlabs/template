@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Header } from "@/components/header"; // @efferd/header-2
+import { Footer } from "@/components/footer"; // @efferd/footer-2
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         {children}
       </main>
+      <Footer />
     </div>
   );
 }
