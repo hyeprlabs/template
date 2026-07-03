@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer
       className={cn(
-        "relative mx-auto max-w-5xl lg:border-x",
+        "relative mx-auto",
         "dark:bg-[radial-gradient(35%_80%_at_15%_0%,--theme(--color-foreground/.1),transparent)]",
       )}
     >
